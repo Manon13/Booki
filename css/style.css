@@ -1,6 +1,7 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
+    margin: 0px;
 }
 
 :root {
@@ -9,6 +10,27 @@
     --filter-bg-color: #DEEBFF;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+nav a {
+    margin: 0px 0px 0px 69px;
+}
+
+nav a:hover {
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
+    padding-top: 14px;
+}
+
+nav img {
+    width: 61.09px;
+    height: 19px;
+    padding: 16px;
+}
 .fa-solid {
     color: var(--main-color);
 }
