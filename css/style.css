@@ -10,14 +10,17 @@
     --filter-bg-color: #DEEBFF;
 }
 
+/****** Header ******/
+
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 16px;
+    padding: 16px 0px 16px 0px;
 }
 
 nav a {
     margin: 0px 0px 0px 69px;
+    font-size: 16px;
 }
 
 nav a:hover {
@@ -29,10 +32,76 @@ nav a:hover {
 nav img {
     width: 61.09px;
     height: 19px;
-    padding: 16px;
+    padding: 14px 0px 14px 0px;
 }
+
+/****** Body ******/
+
 .fa-solid {
     color: var(--main-color);
+}
+
+.presentation {
+    margin-top: 30px;
+}
+
+.presentation-site div {
+    margin-bottom: 35px;
+}
+
+h1 {
+    color: #000000;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: row;
+}
+
+.search-bar i {
+    color: #000000;
+    padding: 16px 19px 17px 19px;
+    /* width: 52px;
+    height: 51px; * avec ces valeurs, l'icone n'est plus centré */
+    background-color: #F2F2F2;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.search-bar input {
+    width: 193px; 
+    height: 49px;
+    border-top: 1px #F2F2F2 solid;
+    border-bottom: 1px #F2F2F2 solid;
+    border-left: 1px #FFFFFF solid;
+    border-right: 1px #FFFFFF solid;
+    margin-right: 0px;
+}
+
+.search-bar button {
+    width: 132px;
+    height: 49px;
+    background-color: #0065FC;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 1px #0065FC solid;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+::placeholder {
+    color: #000000; 
+    font-size: 18px;
+    font-weight: bold;
+    padding: 14px 23px 14px 23px; 
 }
 
 body {
