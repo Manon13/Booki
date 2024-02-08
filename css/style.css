@@ -64,24 +64,34 @@ p {
     flex-direction: row;
 }
 
-.search-bar i {
-    color: #000000;
-    padding: 16px 19px 17px 19px;
-    /* width: 52px;
-    height: 51px; * avec ces valeurs, l'icone n'est plus centré */
+.icone-position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 49px;
     background-color: #F2F2F2;
+    border: 1px #F2F2F2 solid;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 }
 
+.fa-location-dot {
+    color: #000000;
+}
+
+/* .search-bar {
+    width: 377px;
+    height: 49px;
+
+} */
+
 .search-bar input {
     width: 193px; 
     height: 49px;
-    border-top: 1px #F2F2F2 solid;
-    border-bottom: 1px #F2F2F2 solid;
-    border-left: 1px #FFFFFF solid;
-    border-right: 1px #FFFFFF solid;
-    margin-right: 0px;
+    border: 1px #F2F2F2 solid;
+    border-right: none;
+    padding: 0px;
 }
 
 .search-bar button {
@@ -96,12 +106,47 @@ p {
     font-weight: bold;
 }
 
+/* Media query pour les écrans de taille desktop */
+@media screen and (min-width: 769px) {
+    /* Cacher l'icône de loupe sur les écrans de taille desktop */
+    .fa-magnifying-glass {
+        display: none;
+    }
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+    /* ... */
+    .fa-magnifying-glass {
+        visibility: visible;
+        color: #FFFFFF;
+    }
+
+    .search-bar button {
+        width: 49px;
+        height: 49px;
+        background-color: #0065FC;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border: 1px #0065FC solid;
+    }
+
+    .search-bar input {
+        width: 278px; 
+        height: 49px;}
+
+    .submit {
+        visibility: hidden;
+    }
+}
+
 
 ::placeholder {
     color: #000000; 
     font-size: 18px;
     font-weight: bold;
-    padding: 14px 23px 14px 23px; 
+    padding: 0px 24px 0px 24px; 
+
 }
 
 body {
@@ -187,7 +232,3 @@ a {
     }
 }
 
-/* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
-    /* ... */
-}
