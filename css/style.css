@@ -12,7 +12,7 @@
 
 /****** Header ******/
 
-nav {
+header {
     display: flex;
     justify-content: space-between;
     padding: 16px 0px 16px 0px;
@@ -29,11 +29,12 @@ nav a:hover {
     padding-top: 14px;
 }
 
-nav img {
+header img {
     width: 61.09px;
     height: 19px;
     padding: 14px 0px 14px 0px;
 }
+
 
 /****** Body ******/
 
@@ -104,40 +105,6 @@ p {
     color: #FFFFFF;
     font-size: 18px;
     font-weight: bold;
-}
-
-/* Media query pour les écrans de taille desktop */
-@media screen and (min-width: 769px) {
-    /* Cacher l'icône de loupe sur les écrans de taille desktop */
-    .fa-magnifying-glass {
-        display: none;
-    }
-}
-
-/* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
-    /* ... */
-    .fa-magnifying-glass {
-        visibility: visible;
-        color: #FFFFFF;
-    }
-
-    .search-bar button {
-        width: 49px;
-        height: 49px;
-        background-color: #0065FC;
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;
-        border: 1px #0065FC solid;
-    }
-
-    .search-bar input {
-        width: 278px; 
-        height: 49px;}
-
-    .submit {
-        visibility: hidden;
-    }
 }
 
 
@@ -232,3 +199,36 @@ a {
     }
 }
 
+/* Media query pour les écrans de taille desktop */
+@media screen and (min-width: 769px) {
+    /* Cacher l'icône de loupe sur les écrans de taille desktop */
+    .fa-magnifying-glass {
+        display: none;
+    }
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+    /* ... */
+    .fa-magnifying-glass {
+        visibility: visible;
+        color: #FFFFFF;
+    }
+
+    .search-bar button {
+        width: 49px;
+        height: 49px;
+        background-color: #0065FC;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border: 1px #0065FC solid;
+    }
+
+    .search-bar input {
+        width: 278px; 
+        height: 49px;}
+
+    .submit {
+        visibility: hidden;
+    }
+}
