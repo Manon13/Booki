@@ -120,6 +120,9 @@ p {
     font-weight: bold;
 }
 
+.fa-magnifying-glass {
+    /* display: ; */
+}
 
 ::placeholder {
     color: #000000; 
