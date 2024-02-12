@@ -18,12 +18,12 @@ header {
     padding: 16px 0px 16px 0px;
 }
 
-nav a {
+.nav-header a {
     margin: 0px 0px 0px 69px;
     font-size: 16px;
 }
 
-nav a:hover {
+.nav-header a:hover {
     color: #0065FC;
     border-top: 2px solid #0065FC;
     padding-top: 14px;
@@ -42,6 +42,31 @@ header img {
     color: var(--main-color);
 }
 
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.main-container {
+    width: 100%;
+    max-width: 1440px;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/****** Section Info-group ******/
+/****** Presentation ******/
+
 .presentation {
     margin-top: 30px;
 }
@@ -53,20 +78,20 @@ header img {
 h1 {
     color: #000000;
     font-size: 22px;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .presentation p {
     padding-top: 8px;
 }
 
-p {
-    font-size: 16px;
-}
+
+/****** Search Bar ******/
 
 .search-bar {
     display: flex;
     flex-direction: row;
+    height: 49px;
 }
 
 .icone-position {
@@ -85,13 +110,6 @@ p {
 .fa-location-dot {
     color: #000000;
 }
-
-/* .search-bar {
-    width: 377px;
-    height: 49px;
-    display: flex;
-    flex-direction: row;
-} */
 
 .search-bar form {
     display: flex;
@@ -120,34 +138,61 @@ p {
     font-weight: bold;
 }
 
-.fa-magnifying-glass {
-    /* display: ; */
-}
-
 ::placeholder {
     color: #000000; 
     font-size: 18px;
     font-weight: bold;
     padding: 0px 24px 0px 24px; 
-
 }
 
-body {
+/****** Filters ******/
+
+.filters {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    height: 50px;
 }
 
-.main-container {
-    width: 100%;
-    max-width: 1440px;
-    padding: 0 50px;
+.filters p {
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.nav-filters {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-filters p {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.filters-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
     box-sizing: border-box;
+    border: 2px rgba(217, 217, 217, 1) solid;
+    border-radius: 25px;
+    padding: 4px 19px 4px 19px;
+    margin-left: 15px;
 }
 
-a {
-    color: inherit;
-    text-decoration: none;
+.filters-button:hover {
+    background-color: #DEEBFF;
 }
+
+.filters i {
+    padding-right: 10px;
+    color: #0065FC;
+}
+
+
+
 
 .section-title {
     margin: 0;
