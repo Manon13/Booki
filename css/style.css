@@ -162,6 +162,10 @@ h1 {
     cursor: pointer;
 }
 
+.loupe {
+    display: none;
+}
+
 ::placeholder {
     color: #000000; 
     font-size: 18px;
@@ -350,6 +354,7 @@ footer {
         height: 49px;}
 
     .submit {
-        visibility: hidden;
+        display: none;
+        /* visibility: hidden; */
     }
 }
