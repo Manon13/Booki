@@ -29,6 +29,7 @@
 
 
 /****** Hebergements And Populaires ***********/
+
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
@@ -42,24 +43,25 @@
     box-sizing: border-box;
 }
 
+
 /****** Hebergements ***********/
+
 .hebergements {
     width: 65%;
 }
 
+.hebergements .section-title {
+    margin-bottom: 35px;
+}
+
 .hebergements-cards {
     display: flex;
-    flex-direction: column;
-}
-
-.hebergement-card-1, .hebergement-card-2 {
-    display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin-top: 33px;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
-.hebergement-card-1 .card, .hebergement-card-2 .card {
+.hebergements .card {
     display: flex;
     flex-direction: column;
     width: 250.33px;
@@ -74,34 +76,33 @@
 }
 
 .hebergements-cards .card-content {
-    /* width: 67%; */
     padding-left: 15px;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     box-sizing: border-box;
 }
 
 .afficher-plus {
     font-size: 18px;
     font-weight: 700;
-    margin-top: 30px;
 }
 
 .hebergements-cards .card-title {
     margin-top: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
 }
 
 .hebergements-cards .card-subtitle {
     margin: 0;
 }
 
-/* .hebergements-cards .card-rating {
-    margin-bottom: 10px;
-} */
+.hebergements-cards .card-rating {
+    margin-top: 4px;
+}
+
 
 /****** Populaires ***********/
+
 .populaires {
     width: 32%;
 }
@@ -144,4 +145,39 @@
 
 .populaires-cards .card-rating {
     margin-bottom: 5px;
+}
+
+
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+    .hebergements-and-populaires {
+        flex-direction: column;
+    }
+
+    .hebergements {
+        width: 100%;
+    }
+
+    .populaires {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .populaires-cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .populaires-cards a {
+        width: 30%;
+    }
+
+    .populaires-cards .card-title {
+        font-size: 14px;
+    }
+
+    .populaires-cards .card-subtitle {
+        font-size: 13px;
+    }
 }

@@ -33,3 +33,20 @@
     border-top-right-radius: 20px;
     box-sizing: border-box;
 }
+
+
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+
+    .activites-cards img {
+        width: 193.5px;
+        height: 200px;
+    }
+
+    .activites-cards .card {
+        padding: 0px;
+        width: 193.5px;
+        height: 270px;
+    }
+
+}
