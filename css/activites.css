@@ -1,8 +1,8 @@
 .title-photo {
+    display: block;
     font-size: 16px;
     font-weight: 700;
-    padding-left: 15px;
-    margin-top: 15px;
+    padding-left: 20px;
 }
 
 .activites {
@@ -11,13 +11,20 @@
     padding: 30px;
 }
 
-.activites-cards {
+/* .activites-cards {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 30px;
+    align-items: center;
+    box-sizing: border-box;
     /* object-fit: cover; */
+/* } */ 
+
+.activites-cards {
+    
 }
+
 
 .activites-cards .card {
     padding: 0px;
@@ -31,6 +38,13 @@
     height: 380px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    box-sizing: border-box;
+}
+
+.activites-cards .card-content{
+    display: flex;
+    align-items: center;
+    height: 70px;
     box-sizing: border-box;
 }
 
