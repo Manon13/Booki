@@ -31,7 +31,6 @@ header {
     display: flex;
     flex-direction: row;
 
-    /* margin-top: 16px; */
 }
 
 .nav-header a {
@@ -41,8 +40,6 @@ header {
 .nav-header a:hover {
     color: #0065FC;
     border-top: 2px solid #0065FC;
-    /* padding-top: 14px;
-    margin-top: 0px; */
     padding-top: 14px;
 }
 
@@ -283,10 +280,15 @@ footer {
     margin-bottom: 20px;
 }
 
-.nav-footer a {
+.nav-footer ul{
+    padding: 0px;
+}
+
+.nav-footer li {
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 20px;
+    list-style-type: none;
 }
 
 
