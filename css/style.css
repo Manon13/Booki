@@ -85,8 +85,6 @@ p {
 /****** Section Info-group ******/
 /****** Presentation ******/
 
-
-
 h1 {
     color: var(--black);
     font-size: 22px;
@@ -100,6 +98,7 @@ h1 {
 .presentation-site h1 {
     margin-top: 30px;
 }
+
 
 /****** Search Bar ******/
 
@@ -332,12 +331,12 @@ footer {
         padding: 0px;
     }
 
-    /* Header */
-
+    /****** Header ******/
     header {
         display: flex;
         flex-direction: column;
-    }
+        padding: 0px;
+        }
 
     header img {
         align-self: center;
@@ -346,10 +345,8 @@ footer {
 
     .nav-header ul {
         width: 100%;
-        padding: 0px;
         display: flex;
         justify-content: center;
-        align-items: center;
     }
 
     .nav-header li {
@@ -357,23 +354,28 @@ footer {
         justify-content: center;
         width: 50%;
         margin-left: 0px;
-        padding: 0px 0px 17px 0px;
-    }
-
-    .nav-header li:hover {
-        padding : 0px 0px 15px 0px;
-        border-bottom: 2px var(--main-color) solid;
     }
 
     .nav-header a {
-        padding: 0px;
+        padding: 0px 0px 17px 0px;
     }
 
     .nav-header a:hover {
-        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding : 0px 0px 15px 0px;
+        border-bottom: 2px var(--main-color) solid;
         border-top: none;
-        padding-top: 0px;
     }
+
+    /****** Section Info-group ******/
+    /****** Presentation ******/
+    .presentation-site {
+        padding: 0px 20px;
+    }
+
+    /****** Search Bar ******/
 
     .fa-magnifying-glass {
         visibility: visible;
