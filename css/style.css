@@ -65,7 +65,7 @@ body {
 .main-container {
     width: 100%;
     max-width: 1440px;
-    padding: 0 50px;
+    padding: 0px 50px;
     display: flex;
     flex-direction: column;
 }
@@ -174,7 +174,6 @@ h1 {
 .filters {
     display: flex;
     flex-direction: row;
-    height: 50px;
     margin-bottom: 35px;
 }
 
@@ -193,7 +192,7 @@ h1 {
 .nav-filters {
     display: flex;
     flex-direction: row;
-    height: 50px;
+    /* height: 50px; */
 }
 
 .nav-filters p {
@@ -236,7 +235,6 @@ h1 {
     flex-direction: row;
     font-size: 16px;
     font-weight: 400;
-    height: 24px;
     margin-bottom: 35px;
 }
 
@@ -327,9 +325,6 @@ footer {
         margin:0;
     }
 
-    .info-bar {
-        padding-top: 35px;
-    }
 }
 
 /* Small devices (phones, less than 768px) */
@@ -337,7 +332,7 @@ footer {
     /* ... */
 
     .main-container {
-        padding: 0px;
+        padding: 0px 0px;
     }
 
     /****** Header ******/
@@ -368,7 +363,7 @@ footer {
     .nav-header a {
         display: flex;
         justify-content: center;
-        width:100%;
+        width: 100%;
         padding: 0px 0px 15px 0px;
         border-bottom: 2px var(--main-bg-color) solid;
     }
@@ -434,22 +429,30 @@ footer {
     .nav-filters {
         display: flex;
         flex-wrap: wrap;
-        gap: 10px;
-        padding-bottom: 35px;
+        justify-content: center;
+
+        gap: 20px 10px;
+    }
+
+    .nav-filters p {
+        font-size: 14px;
     }
 
     .filters-button {
+        /* width: 162.5px; */
+        flex: 1;
+        height: 50px;
         margin: 0px;
     }
 
     /****** Info-bar ******/
 
     .info-bar {
-        padding-top: 70px;
+        padding: 0px;
     }
 
-    .filters-button {
-        width: 162.5px;
-        height: 50px;
+    .info-bar p {
+        padding: 0px;
     }
+
 }
