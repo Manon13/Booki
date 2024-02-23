@@ -66,7 +66,8 @@ body {
     width: 100%;
     max-width: 1440px;
     padding: 0 50px;
-    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 }
 
 a {
@@ -91,6 +92,11 @@ h1 {
     font-weight: 700;
 }
 
+.presentation-site{
+    display: flex;
+    flex-direction: column;
+}
+
 .presentation-site p {
     padding-top: 8px;
 }
@@ -98,7 +104,6 @@ h1 {
 .presentation-site h1 {
     margin-top: 30px;
 }
-
 
 /****** Search Bar ******/
 
@@ -220,6 +225,10 @@ h1 {
     font-size: 22px;
 }
 
+.filters .fa-person {
+    padding-right: 15px;
+}
+
 /****** Info-bar ******/
 
 .info-bar {
@@ -295,7 +304,7 @@ footer {
 /* Media query pour les écrans de taille desktop */
 @media screen and (min-width: 767.98px) {
     /* Cacher l'icône de loupe sur les écrans de taille desktop */
-    .fa-magnifying-glass {
+    .loupe {
         display: none;
     }
 }
@@ -357,7 +366,11 @@ footer {
     }
 
     .nav-header a {
-        padding: 0px 0px 17px 0px;
+        display: flex;
+        justify-content: center;
+        width:100%;
+        padding: 0px 0px 15px 0px;
+        border-bottom: 2px var(--main-bg-color) solid;
     }
 
     .nav-header a:hover {
@@ -377,24 +390,66 @@ footer {
 
     /****** Search Bar ******/
 
+    .search-bar {
+        max-width: 377px;
+    }
+
+    .icone-position {
+        min-width: 49px;
+    }
+
+    .search-bar input {
+        width: 100%;
+        height: 49px;
+    }
+
+    .submit{
+        display: none;
+    }
+
+    .loupe {
+        display: inline;
+    }
+
     .fa-magnifying-glass {
-        visibility: visible;
-        color: var(--white);
+        color: white;
+        height: 17px;
     }
 
     .search-bar button {
         width: 49px;
         height: 49px;
+        box-sizing: border-box;
         background-color: var(--main-color);
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;
+        border-radius: 15px;
         border: 1px var(--main-color) solid;
+        padding: 0px 15px;
+        box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+        position: relative;
+        left: -10px;
     }
 
-    .search-bar input {
-        height: 49px;}
+    /****** Filters ******/
 
-    .submit {
-        display: none;
+    .nav-filters {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding-bottom: 35px;
+    }
+
+    .filters-button {
+        margin: 0px;
+    }
+
+    /****** Info-bar ******/
+
+    .info-bar {
+        padding-top: 70px;
+    }
+
+    .filters-button {
+        width: 162.5px;
+        height: 50px;
     }
 }
