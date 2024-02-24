@@ -281,7 +281,7 @@ footer {
 .title-footer{
     font-size: 18px;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .nav-footer ul{
@@ -291,7 +291,7 @@ footer {
 .nav-footer li {
     font-size: 16px;
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     list-style-type: none;
 }
 
@@ -453,6 +453,18 @@ footer {
 
     .info-bar p {
         padding: 0px;
+    }
+
+    /****** Footer ******/
+
+    footer {
+        padding: 0px 0px 10px 30px;
+        flex-direction: column;
+    }
+
+    .nav-footer {
+        width: 100%;
+        padding: 30px 0px 5px 0px;
     }
 
 }
