@@ -1,4 +1,4 @@
-/****** General ***********/
+/****** General ******/
 * {
     font-family: 'Raleway', sans-serif;
     margin: 0px;
@@ -29,7 +29,7 @@ header {
 
 .nav-header li {
     margin: 0px 0px 0px 68px;
-    font-size: 16px;
+    font-size: 1em;
     display: flex;
     flex-direction: row;
 }
@@ -74,11 +74,10 @@ a {
     color: inherit;
     text-decoration: none;
     cursor: pointer;
-
 }
 
 p {
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 400;
     color: var(--black);
 }
@@ -88,7 +87,7 @@ p {
 
 h1 {
     color: var(--black);
-    font-size: 22px;
+    font-size: 1.375em;
     font-weight: 700;
 }
 
@@ -129,7 +128,7 @@ h1 {
 
 .fa-location-dot {
     color: var(--black);
-    font-size: 18px;
+    font-size: 1.125em;
 }
 
 .search-bar form {
@@ -154,7 +153,7 @@ h1 {
     border: 1px var(--main-color) solid;
     box-sizing: border-box;
     color: var(--white);
-    font-size: 18px;
+    font-size: 1.125em;
     font-weight: bold;
     cursor: pointer;
 }
@@ -165,7 +164,7 @@ h1 {
 
 ::placeholder {
     color: var(--black); 
-    font-size: 18px;
+    font-size: 1.125em;
     font-weight: bold;
 }
 
@@ -182,7 +181,7 @@ h1 {
 }
 
 .filters p {
-    font-size: 18px;
+    font-size: 1.125em;
     font-weight: 700;
     display: flex;
     align-items: center;
@@ -196,7 +195,7 @@ h1 {
 }
 
 .filters-button {
-    font-size: 17px;
+    font-size: 1.0625em;
     font-weight: 700;
 }
 
@@ -221,7 +220,7 @@ h1 {
 .filters i {
     padding-right: 10px;
     color: var(--main-color);
-    font-size: 22px;
+    font-size: 1.375em;
 }
 
 .filters .fa-person {
@@ -233,7 +232,7 @@ h1 {
 .info-bar {
     display: flex;
     flex-direction: row;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 400;
     margin-bottom: 35px;
 }
@@ -241,7 +240,7 @@ h1 {
 .info-bar p {
     align-self: center;
     padding: 4px 0px 4px 0px;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 400;
 }
 
@@ -258,7 +257,7 @@ h1 {
 }
 
 .icone-info i {
-    font-size: 10px;
+    font-size: 0.625em;
     color: var(--main-color);
 }
 
@@ -279,7 +278,7 @@ footer {
 }
 
 .title-footer{
-    font-size: 18px;
+    font-size: 1.125em;
     font-weight: 700;
     margin-bottom: 15px;
 }
@@ -289,7 +288,7 @@ footer {
 }
 
 .nav-footer li {
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 400;
     margin-bottom: 15px;
     list-style-type: none;
@@ -321,7 +320,7 @@ footer {
 
 
     .filters-button {
-        font-size: 16px;
+        font-size: 1em;
         margin:0;
     }
 
@@ -434,7 +433,7 @@ footer {
     }
 
     .filters-button {
-        font-size: 14px;
+        font-size: 0.875em;
     }
 
     .filters-button {

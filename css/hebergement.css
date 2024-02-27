@@ -1,6 +1,6 @@
 .section-title {
     margin: 0;
-    font-size: 22px;
+    font-size: 1.375em;
 }
 
 .card {
@@ -15,7 +15,7 @@
 }
 
 .card-title {
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 700;
 }
 
@@ -87,7 +87,7 @@
 }
 
 .afficher-plus {
-    font-size: 18px;
+    font-size: 1.125em;
     font-weight: 700;
 }
 
@@ -101,7 +101,7 @@
 }
 
 .card-subtitle {
-    font-size: 14px;
+    font-size: 0.875em;
 }
 
 .hebergements-cards .card-rating {
