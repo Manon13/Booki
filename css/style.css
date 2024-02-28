@@ -164,7 +164,8 @@ h1 {
 
 ::placeholder {
     color: var(--black); 
-    font-size: 1.125em;
+    /* font-size: 1.125em; */
+    font-size: 18px;
     font-weight: bold;
 }
 
