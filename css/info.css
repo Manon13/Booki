@@ -1,0 +1,278 @@
+/****** Section Info-group ******/
+/****** Presentation ******/
+
+h1 {
+    color: var(--black);
+    font-size: 1.375em;
+    font-weight: 700;
+}
+
+.presentation-site{
+    display: flex;
+    flex-direction: column;
+}
+
+.presentation-site p {
+    padding-top: 8px;
+}
+
+.presentation-site h1 {
+    margin-top: 30px;
+}
+
+/****** Search Bar ******/
+
+.search-bar {
+    display: flex;
+    flex-direction: row;
+    height: 49px;
+    margin: 35px 0px 35px 0px;
+}
+
+.icone-position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 49px;
+    background-color: var(--main-bg-color);
+    border: 1px var(--main-bg-color) solid;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    box-sizing: border-box;
+}
+
+.fa-location-dot {
+    color: var(--black);
+    font-size: 1.125em;
+}
+
+.search-bar form {
+    display: flex;
+    flex-direction: row;
+}
+
+.search-bar input {
+    height: 49px;
+    border: 1px var(--main-bg-color) solid;
+    border-right: none;
+    box-sizing: border-box;
+    padding: 0px 20px 0px 20px;
+}
+
+.search-bar button {
+    width: 132px;
+    height: 49px;
+    background-color: var(--main-color);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 1px var(--main-color) solid;
+    box-sizing: border-box;
+    color: var(--white);
+    font-size: 1.125em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.loupe {
+    display: none;
+}
+
+::placeholder {
+    color: var(--black); 
+    /* font-size: 1.125em; */
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/****** Filters ******/
+
+.filters {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 35px;
+}
+
+.p-filters {
+    margin-right: 15px;
+}
+
+.filters p {
+    font-size: 1.125em;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+
+.div-filters {
+    display: flex;
+    flex-direction: row;
+    /* height: 50px; */
+}
+
+.filters-button {
+    font-size: 1.0625em;
+    font-weight: 700;
+}
+
+.filters-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+    box-sizing: border-box;
+    border: 2px var(--main-bg-color) solid;
+    border-radius: 25px;
+    padding: 4px 17px 4px 17px;
+    margin-right: 15px;
+    background-color: var(--white);
+    cursor: pointer;
+}
+
+.filters-button:hover {
+    background-color: var(--filter-bg-color);
+}
+
+.filters i {
+    padding-right: 10px;
+    color: var(--main-color);
+    font-size: 1.375em;
+}
+
+.filters .fa-person {
+    padding-right: 15px;
+}
+
+/****** Info-bar ******/
+
+.info-bar {
+    display: flex;
+    flex-direction: row;
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+
+.info-bar p {
+    align-self: center;
+    padding: 4px 0px 4px 0px;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.icone-info {
+    height: 24px;
+    width: 24px;
+    border: 1px var(--main-bg-color) solid;
+    border-radius: 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.icone-info i {
+    font-size: 0.625em;
+    color: var(--main-color);
+}
+
+/****** Media queries ******/
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+
+    .filters {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .p-filters {
+        margin-bottom: 20px;
+    }
+
+    .filters-button {
+        font-size: 1em;
+    }
+
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+    /****** Section Info-group ******/
+    /****** Presentation ******/
+    .presentation-site {
+        padding: 0px 20px;
+    }
+
+    /****** Search Bar ******/
+
+    .search-bar {
+        max-width: 377px;
+    }
+
+    .icone-position {
+        min-width: 49px;
+    }
+
+    .search-bar input {
+        width: 100%;
+        height: 49px;
+    }
+
+    .submit{
+        display: none;
+    }
+
+    .loupe {
+        display: inline;
+    }
+
+    .fa-magnifying-glass {
+        color: white;
+        height: 17px;
+    }
+
+    .search-bar button {
+        width: 49px;
+        height: 49px;
+        box-sizing: border-box;
+        background-color: var(--main-color);
+        border-radius: 15px;
+        border: 1px var(--main-color) solid;
+        padding: 0px 15px;
+        box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+        position: relative;
+        left: -10px;
+    }
+
+    /****** Filters ******/
+
+    .div-filters {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px 10px;
+    }
+
+    .filters-button {
+        font-size: 0.875em;
+    }
+
+    .filters-button {
+        /* width: 162.5px; */
+        flex: 1;
+        height: 50px;
+        margin: 0px;
+    }
+
+    /****** Info-bar ******/
+
+    .info-bar {
+        padding: 0px;
+    }
+
+    .info-bar p {
+        padding: 0px;
+    }
+}
