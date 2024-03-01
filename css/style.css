@@ -12,24 +12,28 @@
     --white: #ffffff;
 }
 
+.cursor {
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+}
+
 /****** Header ******/
 header {
-    display: flex;
     justify-content: space-between;
     padding: 0px 0px 16px 0px;
 }
 
 .nav-header ul {
-    display: flex;
     margin: 0px;
     padding-left: 0px;
-
 }
 
 .nav-header li {
     margin: 0px 0px 0px 68px;
     font-size: 1em;
-    display: flex;
     flex-direction: row;
 }
 
@@ -55,22 +59,19 @@ header img {
 }
 
 body {
-    display: flex;
     justify-content: center;
 }
 
 .main-container {
+    flex-direction: column;
     width: 100%;
     max-width: 1440px;
     padding: 0px 50px;
-    display: flex;
-    flex-direction: column;
 }
 
 a {
     color: inherit;
     text-decoration: none;
-    cursor: pointer;
 }
 
 p {
@@ -81,7 +82,6 @@ p {
 
 footer {
     background-color: var(--main-bg-color);
-    display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     padding-top: 20px;
@@ -90,7 +90,6 @@ footer {
 
 .nav-footer {
     width: 33%;
-    display: flex;
     flex-direction: column;
     padding-left: 20px;
 }
@@ -112,17 +111,16 @@ footer {
     list-style-type: none;
 }
 
+
 /****** Media queries ******/
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-
     .main-container {
         padding: 0px 0px;
     }
 
     /****** Header ******/
     header {
-        display: flex;
         flex-direction: column;
         padding: 0px;
         }
@@ -134,19 +132,17 @@ footer {
 
     .nav-header ul {
         width: 100%;
-        display: flex;
         justify-content: center;
     }
 
     .nav-header li {
-        display:flex;
+        /* display:flex; */
         justify-content: center;
         width: 50%;
         margin-left: 0px;
     }
 
     .nav-header a {
-        display: flex;
         justify-content: center;
         width: 100%;
         padding: 0px 0px 15px 0px;
@@ -154,7 +150,6 @@ footer {
     }
 
     .nav-header a:hover {
-        display: flex;
         justify-content: center;
         width: 100%;
         padding : 0px 0px 15px 0px;
@@ -163,7 +158,6 @@ footer {
     }
 
     .nav-header a:active {
-        display: flex;
         justify-content: center;
         color: var(--main-color);
         width: 100%;
@@ -182,5 +176,4 @@ footer {
         width: 100%;
         padding: 30px 0px 5px 0px;
     }
-
 }

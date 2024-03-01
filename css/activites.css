@@ -1,12 +1,10 @@
 /****** Section Activites ******/
 .activites {
-    display: flex;
     flex-direction: column;
     padding: 30px;
 }
 
 .activites-cards {
-    display: flex;
     flex-direction: row;
     margin-top: 30px;
     justify-content: space-between;
@@ -25,13 +23,11 @@
 }
 
 .activites-cards .card-content {
-    display: flex;
     align-items: center;
     height: 59px;
 }
 
 .title-photo {
-    display: flex;
     font-size: 1em;
     font-weight: 700;
     padding-left: 20px;
@@ -66,7 +62,6 @@
     }
 
     .activites-cards {
-        display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         margin-top: 30px;

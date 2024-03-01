@@ -20,58 +20,58 @@
     ></script>
   </head>
 
-  <body>
-    <div class="main-container">
-      <header>
+  <body class="flex">
+    <div class="main-container flex">
+      <header class="flex">
         <img src="images/logo/Booki.png" alt="Logo Booki">
         <nav class="nav-header">
-          <ul>
-            <li><a href="#ancre-hebergements">Hébergements</a></li>
-            <li><a href="#ancre-activites">Activités</a></li>
+          <ul class="flex">
+            <li class="flex"><a class="cursor flex" href="#ancre-hebergements">Hébergements</a></li>
+            <li class="flex"><a class="cursor flex" href="#ancre-activites">Activités</a></li>
           </ul>
         </nav>
       </header>
       <main>
 
         <!-- Section Presentation -->
-        <aside class="presentation-site">
+        <aside class="presentation-site flex">
           <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
           <p>En plein centre-ville ou en pleine nature</p>
 
-          <form action="#" method="GET" class="search-bar">
-            <span class="icone-position"><i class="fa-solid fa-location-dot"></i></span>
+          <form action="#" method="GET" class="search-bar flex">
+            <span class="icone-position flex"><i class="fa-solid fa-location-dot"></i></span>
             <input type="text" name="rechercher" placeholder="Marseille, France">
-            <button type="submit">
+            <button class="cursor" type="submit">
               <span class="submit">Rechercher</span>
               <span class="loupe"><i class="fa-solid fa-magnifying-glass"></i></span>
             </button>
           </form>
-          <div class="filters">
-            <p><span class="p-filters">Filtres</span></p>
-            <div class="div-filters">
-              <button class="filters-button"><i class="fa-solid fa-money-bill-wave"></i>Économique</button>
-              <button class="filters-button"><i class="fa-solid fa-person"></i>Familial</button>
-              <button class="filters-button"><i class="fa-solid fa-heart"></i>Romantique</button>
-              <button class="filters-button"><i class="fa-solid fa-fire"></i>Nos pépites</button>
+          <div class="filters flex">
+            <p><span class="p-filters flex">Filtres</span></p>
+            <div class="div-filters flex">
+              <button class="filters-button cursor flex"><i class="fa-solid fa-money-bill-wave"></i>Économique</button>
+              <button class="filters-button cursor flex"><i class="fa-solid fa-person"></i>Familial</button>
+              <button class="filters-button cursor flex"><i class="fa-solid fa-heart"></i>Romantique</button>
+              <button class="filters-button cursor flex"><i class="fa-solid fa-fire"></i>Nos pépites</button>
             </div>
           </div>
 
-          <div class="info-bar">
-            <span class="icone-info"><i class="fa-solid fa-info"></i></span>
+          <div class="info-bar flex">
+            <span class="icone-info flex"><i class="fa-solid fa-info"></i></span>
             <p>Plus de 500 logements sont disponibles dans cette ville</p>
           </div>
         </aside>
 
         <!-- Section Hebergements and Populaires -->
         <!-- Section Hebergements -->
-        <div class="hebergements-and-populaires" id="ancre-hebergements">
+        <div class="hebergements-and-populaires flex" id="ancre-hebergements">
           <section class="hebergements">
             <h2 class="section-title">Hébergements à Marseille</h2>
-            <div class="hebergements-cards">
-              <a href="#">
-                <article class="card">
+            <div class="hebergements-cards flex">
+              <a class="cursor" href="#">
+                <article class="card flex">
                   <img src="./images/hebergements/fred-kleber.jpg" alt="Image de la chambre d'hôtel montrant un lit">
-                  <div class="card-content">
+                  <div class="card-content flex">
                     <div class="card-txt">
                       <h3 class="card-title">Hôtel du port</h3>
                       <p class="card-subtitle">Nuit à partir de 52<span class="euro">€</span></p>
@@ -88,10 +88,10 @@
                 </article>
               </a>
 
-              <a href="#">
-                <article class="card">
+              <a class="cursor" href="#">
+                <article class="card flex">
                   <img src="./images/hebergements/febrian-zakaria.jpg" alt="Image de la chambre d'hôtel montrant un lit">
-                  <div class="card-content">
+                  <div class="card-content flex">
                     <div class="card-txt">
                       <h3 class="card-title">Hôtel Chez Amina</h3>
                       <p class="card-subtitle">Nuit à partir de 96<span class="euro">€</span></p>
@@ -108,10 +108,10 @@
                 </article>
               </a>
 
-              <a href="#">
-                <article class="card">
+              <a class="cursor" href="#">
+                <article class="card flex">
                   <img src="./images/hebergements/reisetopia.jpg" alt="Image de la chambre d'hôtel montrant un lit">
-                  <div class="card-content">
+                  <div class="card-content flex">
                     <div class="card-txt">
                       <h3 class="card-title">Hôtel Les mouettes</h3>
                       <p class="card-subtitle">Nuit à partir de 76<span class="euro">€</span></p>
@@ -128,10 +128,10 @@
                 </article>
               </a>
 
-              <a href="#">
-                <article class="card">
+              <a class="cursor" href="#">
+                <article class="card flex">
                   <img src="./images/hebergements/annie-spratt.jpg" alt="Image de la chambre d'hôtel montrant un lit">
-                  <div class="card-content">
+                  <div class="card-content flex">
                     <div class="card-txt">
                       <h3 class="card-title">Hôtel de la mer</h3>
                       <p class="card-subtitle">Nuit à partir de 46<span class="euro">€</span></p>
@@ -148,10 +148,10 @@
                 </article>
               </a>
 
-              <a href="#">
-                <article class="card">
+              <a class="cursor" href="#">
+                <article class="card flex">
                   <img src="./images/hebergements/marcus-loke.jpg" alt="Image de la chambre d'hôtel montrant un lit">
-                  <div class="card-content">
+                  <div class="card-content flex">
                     <div class="card-txt">
                       <h3 class="card-title">Auberge La Canebière</h3>
                       <p class="card-subtitle">Nuit à partir de 25<span class="euro">€</span></p>
@@ -168,10 +168,10 @@
                 </article>
               </a>
 
-              <a href="#">
-                <article class="card">
+              <a class="cursor" href="#">
+                <article class="card flex">
                   <img src="./images/hebergements/nicate-lee.jpg" alt="Image de la chambre d'hôtel montrant un lit">
-                  <div class="card-content">
+                  <div class="card-content flex">
                     <div class="card-txt">
                       <h3 class="card-title">Auberge Le Panier</h3>
                       <p class="card-subtitle">Nuit à partir de 23<span class="euro">€</span></p>
@@ -188,21 +188,21 @@
                 </article>
               </a>
 
-              <a href="#" class="afficher-plus">Afficher plus</a>
+              <a class="cursor" href="#" class="afficher-plus">Afficher plus</a>
             </div>
           </section>
 
           <!-- Section Populaires -->
           <section class="populaires">
-            <div class="populaires-title">
+            <div class="populaires-title flex">
               <h2 class="section-title">Les plus populaires</h2>
               <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
             </div>
             <div class="populaires-cards">
-              <a href="#">
-                <article class="card">
+              <a class="cursor" href="#">
+                <article class="card flex">
                   <img src="./images/hebergements/emile-guillemot.jpg" alt="Image de la chambre d'hôtel montrant un lit">
-                  <div class="card-content">
+                  <div class="card-content flex">
                     <div class="card-txt">
                       <h3 class="card-title">Hôtel Le soleil du matin</h3>
                       <p class="card-subtitle">Nuit à partir de 128<span class="euro">€</span></p>
@@ -219,10 +219,10 @@
                 </article>
               </a>
 
-              <a href="#">
-                <article class="card">
+              <a class="cursor" href="#">
+                <article class="card flex">
                   <img src="./images/hebergements/aw-creative.jpg" alt="Image de la chambre d'hôtel montrant un lit">
-                  <div class="card-content">
+                  <div class="card-content flex">
                     <div class="card-txt">
                       <h3 class="card-title">
                         Chambres d’hôtes Au cœur de l’eau
@@ -241,10 +241,10 @@
                 </article>
               </a>
 
-              <a href="#">
-                <article class="card">
+              <a class="cursor" href="#">
+                <article class="card flex">
                   <img src="./images/hebergements/febrian-zakaria2.jpg" alt="Image de la chambre d'hôtel montrant un lit">
-                  <div class="card-content">
+                  <div class="card-content flex">
                     <div class="card-txt">
                       <h3 class="card-title">Hôtel Bleu et Blanc</h3>
                       <p class="card-subtitle">Nuit à partir de 68<span class="euro">€</span></p>
@@ -265,41 +265,41 @@
         </div>
 
         <!-- Section Activites -->
-        <section class="activites" id="ancre-activites">
+        <section class="activites flex" id="ancre-activites">
           <h2 class="section-title">Activités à Marseille</h2>
-          <div class="activites-cards">
-            <a href="#">
+          <div class="activites-cards flex">
+            <a class="cursor" href="#">
               <article class="card">
                 <img src="./images/activites/reno-laithienne.jpg" alt="Photo du Vieux-Port de Marseille">
-                <div class="card-content">
-                  <h3 class="title-photo">Vieux-Port</h3>
+                <div class="card-content flex">
+                  <h3 class="title-photo flex">Vieux-Port</h3>
                 </div>
               </article>
             </a>
 
-            <a href="#">
+            <a class="cursor" href="#">
               <article class="card">
                 <img src="./images/activites/paul-hermann.jpg" alt="Photo du Fort de Pomègues">
-                <div class="card-content">
-                  <h3 class="title-photo">Fort de Pomègues</h3>
+                <div class="card-content flex">
+                  <h3 class="title-photo flex">Fort de Pomègues</h3>
                 </div>
               </article>
             </a>
 
-            <a href="#">
+            <a class="cursor" href="#">
               <article class="card">
                 <img src="./images/activites/kilyan-sockalingum.jpg" alt="Photo du Parc national des Calanques">
-                <div class="card-content">
-                  <h3 class="title-photo">Parc national des Calanques</h3>
+                <div class="card-content flex">
+                  <h3 class="title-photo flex">Parc national des Calanques</h3>
                 </div>
               </article>
             </a>
 
-            <a href="#">
+            <a class="cursor" href="#">
               <article class="card">
                 <img src="./images/activites/florian-wehde.jpg" alt="Photo de Notre-Dame-de-la-Garde">
-                <div class="card-content">
-                  <h3 class="title-photo">Notre-Dame-de-la-Garde</h3>
+                <div class="card-content flex">
+                  <h3 class="title-photo flex">Notre-Dame-de-la-Garde</h3>
                 </div>
               </article>
             </a>
@@ -307,29 +307,29 @@
         </section>
       </main>
 
-      <footer>
-        <nav class="nav-footer">
+      <footer class="flex">
+        <nav class="nav-footer flex">
           <h4 class="title-footer">À propos</h4>
           <ul>
-            <li><a href="#">Fonctionnement du site</a></li>
-            <li><a href="#">Conditions générales</a></li>
-            <li><a href="#">Données et confidentialité</a></li>
+            <li><a class="cursor" href="#">Fonctionnement du site</a></li>
+            <li><a class="cursor" href="#">Conditions générales</a></li>
+            <li><a class="cursor" href="#">Données et confidentialité</a></li>
           </ul>
         </nav>
 
-        <nav class="nav-footer">
+        <nav class="nav-footer flex">
           <h4 class="title-footer">Nos hébergements</h4>
           <ul>
-            <li><a href="#">Charte qualité</a></li>
-            <li><a href="#">Proposer votre hôtel</a></li>
+            <li><a class="cursor" href="#">Charte qualité</a></li>
+            <li><a class="cursor" href="#">Proposer votre hôtel</a></li>
           </ul>
         </nav>
 
-        <nav class="nav-footer">
+        <nav class="nav-footer flex">
           <h4 class="title-footer">Assistance</h4>
           <ul>
-            <li><a href="#">Centre d'aide</a></li>
-            <li><a href="#">Nous contacter</a></li>
+            <li><a class="cursor" href="#">Centre d'aide</a></li>
+            <li><a class="cursor" href="#">Nous contacter</a></li>
           </ul>
         </nav>
       </footer>

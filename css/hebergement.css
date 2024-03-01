@@ -30,7 +30,6 @@
 }
 
 .hebergements-and-populaires {
-    display: flex;
     justify-content: space-between;
     margin-bottom: 35px;
 }
@@ -52,14 +51,12 @@
 }
 
 .hebergements-cards {
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 30px;
 }
 
 .hebergements .card {
-    display: flex;
     flex-direction: column;
     box-sizing: border-box;
     padding-bottom: 15px;
@@ -78,7 +75,6 @@
 
 .hebergements-cards .card-content {
     padding-left: 15px;
-    display: flex;
     flex-direction: column;
     box-sizing: border-box;
 }
@@ -111,13 +107,11 @@
 }
 
 .populaires-title {
-    display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .populaires-cards .card {
-    display: flex;
     margin-top: 33px;
 }
 
@@ -131,7 +125,6 @@
 .populaires-cards .card-content {
     width: 67%;
     padding-left: 15px;
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
