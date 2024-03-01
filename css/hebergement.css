@@ -29,7 +29,6 @@
 
 
 /****** Hebergements And Populaires ***********/
-
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
@@ -45,7 +44,6 @@
 
 
 /****** Hebergements ***********/
-
 .hebergements {
     width: 65%;
 }
@@ -108,9 +106,7 @@
     margin-top: 7px;
 }
 
-
 /****** Populaires ***********/
-
 .populaires {
     width: 32%;
 }
@@ -155,7 +151,7 @@
     margin-bottom: 5px;
 }
 
-
+/****** Media queries ******/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
     .hebergements-and-populaires {

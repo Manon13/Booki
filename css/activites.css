@@ -43,7 +43,7 @@
     border-top-right-radius: 20px;
 }
 
-
+/****** Media queries ******/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
 
@@ -57,16 +57,11 @@
         width: 193.5px;
         height: 270px;
     }
-
-    /* .activites-cards .card-content {
-        height: 70px;
-    } */
 }
 
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
 
     .activites {
         padding: 15px 20px 30px 20px;
