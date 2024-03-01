@@ -1,3 +1,4 @@
+/****** Section Activites ******/
 .activites {
     display: flex;
     flex-direction: column;
@@ -46,7 +47,6 @@
 /****** Media queries ******/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
-
     .activites-cards img {
         width: 193.5px;
         height: 200px;
@@ -59,10 +59,8 @@
     }
 }
 
-
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-
     .activites {
         padding: 15px 20px 30px 20px;
     }
@@ -88,5 +86,4 @@
         width: 100%;
         height: 141px;
     }
-
 }

@@ -1,3 +1,5 @@
+/****** Hebergements And Populaires ******/
+/****** Les cards ******/
 .section-title {
     margin: 0;
     font-size: 1.375em;
@@ -27,8 +29,6 @@
     color: var(--main-bg-color)
 }
 
-
-/****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
@@ -42,8 +42,7 @@
     box-sizing: border-box;
 }
 
-
-/****** Hebergements ***********/
+/****** Hebergements ******/
 .hebergements {
     width: 65%;
 }
@@ -106,7 +105,7 @@
     margin-top: 7px;
 }
 
-/****** Populaires ***********/
+/****** Populaires ******/
 .populaires {
     width: 32%;
 }
@@ -189,8 +188,6 @@
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
-
     .hebergements-and-populaires section {
         border-radius: 0;
         padding: 30px 20px;
