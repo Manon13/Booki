@@ -160,7 +160,7 @@
     }
 
     .populaires-cards a {
-        flex: calc(33% - 14px) 1 1;
+        width: 33%;
     }
 
     .populaires-cards {
@@ -169,14 +169,6 @@
         justify-content: flex-start;
         gap: 20px;
     }
-
-    /* .populaires-cards .card-title {
-        font-size: 14px;
-    }
-
-    .populaires-cards .card-subtitle {
-        font-size: 13px;
-    } */
 }
 
 /* Small devices (phones, less than 768px) */
@@ -187,13 +179,17 @@
     }
 
     .hebergements-and-populaires .hebergements {
-        background-color: white;
+        background-color: var(--white);
         padding-top: 35px;
     }
 
     .populaires {
         order: 1;
         margin: 0px;
+    }
+
+    .populaires-cards a {
+        width: 100%;
     }
 
     .populaires-cards {
