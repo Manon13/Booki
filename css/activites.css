@@ -18,6 +18,7 @@
 }
 
 .activites-cards .card {
+    flex-direction: column;
     padding: 0px;
     box-sizing: border-box;
 }
