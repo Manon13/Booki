@@ -42,6 +42,10 @@ p {
     color: var(--black);
 }
 
+.fa-solid {
+    color: var(--main-color);
+}
+
 /****** Header ******/
 header {
     justify-content: space-between;

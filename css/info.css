@@ -173,10 +173,6 @@ h1 {
         padding: 0px 20px;
     }
 
-    .fa-solid {
-        color: var(--main-color);
-    }
-
     /****** Search Bar ******/
     .search-bar {
         max-width: 377px;
